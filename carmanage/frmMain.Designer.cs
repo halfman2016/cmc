@@ -32,18 +32,12 @@
             this.carcode = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.exdate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ttodays = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.forcegrid = new System.Windows.Forms.DataGridView();
-            this.carplate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.enddate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.todays = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.comgrid = new System.Windows.Forms.DataGridView();
-            this.carnun = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.comins = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.amount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tod = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.forcedate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.forto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.comamount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.comdate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.comto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.testgrid)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.forcegrid)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comgrid)).BeginInit();
             this.SuspendLayout();
             // 
             // testgrid
@@ -52,13 +46,17 @@
             this.testgrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.carcode,
             this.exdate,
-            this.ttodays});
+            this.ttodays,
+            this.forcedate,
+            this.forto,
+            this.comamount,
+            this.comdate,
+            this.comto});
             this.testgrid.Location = new System.Drawing.Point(12, 12);
             this.testgrid.Name = "testgrid";
             this.testgrid.RowTemplate.Height = 23;
-            this.testgrid.Size = new System.Drawing.Size(348, 404);
+            this.testgrid.Size = new System.Drawing.Size(996, 404);
             this.testgrid.TabIndex = 0;
-            this.testgrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // carcode
             // 
@@ -79,83 +77,41 @@
             this.ttodays.Name = "ttodays";
             this.ttodays.ReadOnly = true;
             // 
-            // forcegrid
+            // forcedate
             // 
-            this.forcegrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.forcegrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.carplate,
-            this.enddate,
-            this.todays});
-            this.forcegrid.Location = new System.Drawing.Point(367, 13);
-            this.forcegrid.Name = "forcegrid";
-            this.forcegrid.RowTemplate.Height = 23;
-            this.forcegrid.Size = new System.Drawing.Size(345, 403);
-            this.forcegrid.TabIndex = 1;
-            this.forcegrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
+            this.forcedate.HeaderText = "交强险有效期";
+            this.forcedate.Name = "forcedate";
+            this.forcedate.ReadOnly = true;
             // 
-            // carplate
+            // forto
             // 
-            this.carplate.HeaderText = "号牌";
-            this.carplate.Name = "carplate";
-            this.carplate.ReadOnly = true;
+            this.forto.HeaderText = "距今";
+            this.forto.Name = "forto";
+            this.forto.ReadOnly = true;
             // 
-            // enddate
+            // comamount
             // 
-            this.enddate.HeaderText = "交强险有效期";
-            this.enddate.Name = "enddate";
-            this.enddate.ReadOnly = true;
+            this.comamount.HeaderText = "商业险额度";
+            this.comamount.Name = "comamount";
+            this.comamount.ReadOnly = true;
             // 
-            // todays
+            // comdate
             // 
-            this.todays.HeaderText = "距今天天数";
-            this.todays.Name = "todays";
-            this.todays.ReadOnly = true;
+            this.comdate.HeaderText = "商业险有效期";
+            this.comdate.Name = "comdate";
+            this.comdate.ReadOnly = true;
             // 
-            // comgrid
+            // comto
             // 
-            this.comgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.comgrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.carnun,
-            this.comins,
-            this.amount,
-            this.tod});
-            this.comgrid.Location = new System.Drawing.Point(718, 12);
-            this.comgrid.Name = "comgrid";
-            this.comgrid.RowTemplate.Height = 23;
-            this.comgrid.Size = new System.Drawing.Size(451, 404);
-            this.comgrid.TabIndex = 2;
-            // 
-            // carnun
-            // 
-            this.carnun.HeaderText = "号牌";
-            this.carnun.Name = "carnun";
-            this.carnun.ReadOnly = true;
-            // 
-            // comins
-            // 
-            this.comins.HeaderText = "商业险有效期";
-            this.comins.Name = "comins";
-            this.comins.ReadOnly = true;
-            // 
-            // amount
-            // 
-            this.amount.HeaderText = "保额";
-            this.amount.Name = "amount";
-            this.amount.ReadOnly = true;
-            // 
-            // tod
-            // 
-            this.tod.HeaderText = "距今天数";
-            this.tod.Name = "tod";
-            this.tod.ReadOnly = true;
+            this.comto.HeaderText = "距今";
+            this.comto.Name = "comto";
+            this.comto.ReadOnly = true;
             // 
             // mainFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1190, 603);
-            this.Controls.Add(this.comgrid);
-            this.Controls.Add(this.forcegrid);
             this.Controls.Add(this.testgrid);
             this.Name = "mainFrm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -163,8 +119,6 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.mainFrm_FormClosed);
             this.Load += new System.EventHandler(this.mainFrm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.testgrid)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.forcegrid)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comgrid)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -174,14 +128,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn carcode;
         private System.Windows.Forms.DataGridViewTextBoxColumn exdate;
         private System.Windows.Forms.DataGridViewTextBoxColumn ttodays;
-        private System.Windows.Forms.DataGridView forcegrid;
-        private System.Windows.Forms.DataGridViewTextBoxColumn carplate;
-        private System.Windows.Forms.DataGridViewTextBoxColumn enddate;
-        private System.Windows.Forms.DataGridViewTextBoxColumn todays;
-        private System.Windows.Forms.DataGridView comgrid;
-        private System.Windows.Forms.DataGridViewTextBoxColumn carnun;
-        private System.Windows.Forms.DataGridViewTextBoxColumn comins;
-        private System.Windows.Forms.DataGridViewTextBoxColumn amount;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tod;
+        private System.Windows.Forms.DataGridViewTextBoxColumn forcedate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn forto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn comamount;
+        private System.Windows.Forms.DataGridViewTextBoxColumn comdate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn comto;
     }
 }

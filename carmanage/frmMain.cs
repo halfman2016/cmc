@@ -95,6 +95,9 @@ WHERE   (orgs.idorgs = @oid)", myo);
                 forcegrid.Rows.Add(row);
             }
 
+            //读取商业险记录
+
+
         }
 
             private void mainFrm_FormClosed(object sender, FormClosedEventArgs e)
@@ -104,14 +107,6 @@ WHERE   (orgs.idorgs = @oid)", myo);
            
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
-
-        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }
