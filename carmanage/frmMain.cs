@@ -32,42 +32,14 @@ namespace carmanage
            
             MySqlParameter[] myo = { my};
 
-            cartest = MySqlHelper.ExecuteReader(Properties.Settings.Default.localhost, @"SELECT   cars.carplate,  testrec.exdate
+          //读取记录
+
+            carforce = MySqlHelper.ExecuteReader(Properties.Settings.Default.localhost, @"SELECT   cars.carplate, testrec.exdate, forceins.enddate, comins.amount, comins.enddate
 FROM      cars INNER JOIN
                 owners ON cars.owners_idowners = owners.idowners INNER JOIN
                 orgs ON owners.orgs_idorgs = orgs.idorgs INNER JOIN
-                testrec ON cars.idcars = testrec.cars_idcars
-WHERE   (orgs.idorgs = @oid)", myo);
-
-            while (cartest.Read())
-            {
-                Object[] values = new Object[cartest.FieldCount];
-                cartest.GetValues(values);
-                string[] row=new string[3];
-                int i = 0;
-                foreach (Object v in values)
-                    {
-                    row[i] = v.ToString();
-                    if (i == 1)
-                    {
-                        DateTime tt = ((DateTime)v);
-                        DateTime today = DateTime.Today;
-                        TimeSpan ts =   tt- today;
-                        row[i+1]=ts.Days.ToString();
-
-                    }
-                    i++;
-                }
-                 
-                testgrid.Rows.Add(row);
-            }
-
-            //读取交强险记录
-
-            carforce = MySqlHelper.ExecuteReader(Properties.Settings.Default.localhost, @"SELECT   cars.carplate, forceins.enddate
-FROM      cars INNER JOIN
-                owners ON cars.owners_idowners = owners.idowners INNER JOIN
-                orgs ON owners.orgs_idorgs = orgs.idorgs INNER JOIN
+                testrec ON cars.idcars = testrec.cars_idcars LEFT OUTER JOIN
+                comins ON cars.idcars = comins.cars_idcars LEFT OUTER JOIN
                 forceins ON cars.idcars = forceins.cars_idcars
 WHERE   (orgs.idorgs = @oid)", myo);
 
@@ -76,26 +48,28 @@ WHERE   (orgs.idorgs = @oid)", myo);
             {
                 Object[] values = new Object[ carforce.FieldCount];
                 carforce.GetValues(values);
-                string[] row = new string[3];
+                string[] row = new string[8];
                 int i = 0;
                 foreach (Object v in values)
                 {
                     row[i] = v.ToString();
-                    if (i == 1)
+                    if (i == 1|| i==3 || i==6)
                     {
+                        if(v!=null)
+                        {
                         DateTime tt = ((DateTime)v);
                         DateTime today = DateTime.Today;
                         TimeSpan ts = tt - today;
-                        row[i + 1] = ts.Days.ToString();
-
+                        row[i + 1] = ts.Days.ToString(); 
+                        }
+                        i++;
                     }
                     i++;
                 }
 
-                forcegrid.Rows.Add(row);
+                testgrid.Rows.Add(row);
             }
 
-            //读取商业险记录
 
 
         }

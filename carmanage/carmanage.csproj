@@ -64,6 +64,12 @@
     <Compile Include="admin.Designer.cs">
       <DependentUpon>admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="admincar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admincar.Designer.cs">
+      <DependentUpon>admincar.cs</DependentUpon>
+    </Compile>
     <Compile Include="cardataset.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -83,6 +89,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="admincar.resx">
+      <DependentUpon>admincar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
