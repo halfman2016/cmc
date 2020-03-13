@@ -42,6 +42,9 @@
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\PrivateAssemblies\MySql.Data.DLL</HintPath>
     </Reference>
     <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="SqlSugar, Version=5.0.0.12, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\sqlSugar.5.0.0.12\lib\SqlSugar.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Configuration.Install" />
@@ -70,16 +73,22 @@
     <Compile Include="admincar.Designer.cs">
       <DependentUpon>admincar.cs</DependentUpon>
     </Compile>
-    <Compile Include="cardataset.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>cardataset.xsd</DependentUpon>
+    <Compile Include="cardetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cardetail.Designer.cs">
+      <DependentUpon>cardetail.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hti0ppaxriDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hti0ppaxriDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
@@ -91,6 +100,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="admincar.resx">
       <DependentUpon>admincar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cardetail.resx">
+      <DependentUpon>cardetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
@@ -109,17 +121,18 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config" />
-    <None Include="cardataset.xsc">
-      <DependentUpon>cardataset.xsd</DependentUpon>
+    <None Include="hti0ppaxriDataSet.xsc">
+      <DependentUpon>hti0ppaxriDataSet.xsd</DependentUpon>
     </None>
-    <None Include="cardataset.xsd">
+    <None Include="hti0ppaxriDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>cardataset.Designer.cs</LastGenOutput>
+      <LastGenOutput>hti0ppaxriDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="cardataset.xss">
-      <DependentUpon>cardataset.xsd</DependentUpon>
+    <None Include="hti0ppaxriDataSet.xss">
+      <DependentUpon>hti0ppaxriDataSet.xsd</DependentUpon>
     </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

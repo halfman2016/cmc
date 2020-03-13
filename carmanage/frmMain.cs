@@ -81,6 +81,43 @@ WHERE   (orgs.idorgs = @oid)", myo);
            
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new admincar().Show();
+            this.Hide();
 
+        }
+
+        private void testgrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void testgrid_DoubleClick(object sender, EventArgs e)
+        {
+            DataGridViewRow dc = testgrid.CurrentRow;
+            Console.WriteLine(dc.Cells[0].Value);
+            cardetail cd = new cardetail();
+            cd.carplate = (string)dc.Cells[0].Value;
+            cd.Show();
+        }
+
+        private void testgrid_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)
+        {
+            if (e.Value != null)
+            {
+                if (e.Value.GetType() == typeof(int))
+
+                {
+                    if ((int)e.Value < 0)
+
+                    {
+
+                        e.CellStyle.BackColor = Color.Red;
+
+                    }
+                }
+            }
+        }
     }
 }

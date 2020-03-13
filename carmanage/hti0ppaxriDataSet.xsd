@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema id="cardataset" targetNamespace="http://tempuri.org/cardataset.xsd" xmlns:mstns="http://tempuri.org/cardataset.xsd" xmlns="http://tempuri.org/cardataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+<xs:schema id="hti0ppaxriDataSet" targetNamespace="http://tempuri.org/hti0ppaxriDataSet.xsd" xmlns:mstns="http://tempuri.org/hti0ppaxriDataSet.xsd" xmlns="http://tempuri.org/hti0ppaxriDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
   <xs:annotation>
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="localmysql" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="localmysql (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.carmanage.Properties.Settings.GlobalReference.Default.localmysql" Provider="MySql.Data.MySqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="localhost" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="localhost (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.carmanage.Properties.Settings.GlobalReference.Default.localhost" Provider="MySql.Data.MySqlClient" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="carsTableAdapter" GeneratorDataComponentClassName="carsTableAdapter" Name="cars" UserDataComponentName="carsTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="localmysql (Settings)" DbObjectName="hti0ppaxri.cars" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="localhost (Settings)" DbObjectName="hti0ppaxri.cars" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>DELETE FROM `cars` WHERE ((`idcars` = @p1) AND ((@p2 = 1 AND `carplate` IS NULL) OR (`carplate` = @p3)) AND ((@p4 = 1 AND `cartype` IS NULL) OR (`cartype` = @p5)) AND ((@p6 = 1 AND `caraddress` IS NULL) OR (`caraddress` = @p7)) AND ((@p8 = 1 AND `caruae` IS NULL) OR (`caruae` = @p9)) AND ((@p10 = 1 AND `carbrand` IS NULL) OR (`carbrand` = @p11)) AND ((@p12 = 1 AND `carvin` IS NULL) OR (`carvin` = @p13)) AND ((@p14 = 1 AND `carengine` IS NULL) OR (`carengine` = @p15)) AND ((@p16 = 1 AND `regdate` IS NULL) OR (`regdate` = @p17)) AND ((@p18 = 1 AND `applydate` IS NULL) OR (`applydate` = @p19)) AND ((@p20 = 1 AND `filenum` IS NULL) OR (`filenum` = @p21)) AND ((@p22 = 1 AND `carcarry` IS NULL) OR (`carcarry` = @p23)) AND ((@p24 = 1 AND `carmass` IS NULL) OR (`carmass` = @p25)) AND ((@p26 = 1 AND `carcarrymass` IS NULL) OR (`carcarrymass` = @p27)) AND ((@p28 = 1 AND `caremass` IS NULL) OR (`caremass` = @p29)) AND ((@p30 = 1 AND `carappeara` IS NULL) OR (`carappeara` = @p31)) AND ((@p32 = 1 AND `carscrapdate` IS NULL) OR (`carscrapdate` = @p33)) AND ((@p34 = 1 AND `carfule` IS NULL) OR (`carfule` = @p35)) AND ((@p36 = 1 AND `papercode` IS NULL) OR (`papercode` = @p37)) AND (`owners_idowners` = @p38))</CommandText>
@@ -179,7 +179,7 @@
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="cominsTableAdapter" GeneratorDataComponentClassName="cominsTableAdapter" Name="comins" UserDataComponentName="cominsTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="localmysql (Settings)" DbObjectName="hti0ppaxri.comins" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="localhost (Settings)" DbObjectName="hti0ppaxri.comins" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>DELETE FROM `comins` WHERE ((`idCommerceins` = @p1) AND ((@p2 = 1 AND `amount` IS NULL) OR (`amount` = @p3)) AND ((@p4 = 1 AND `ponum` IS NULL) OR (`ponum` = @p5)) AND ((@p6 = 1 AND `startdate` IS NULL) OR (`startdate` = @p7)) AND ((@p8 = 1 AND `enddate` IS NULL) OR (`enddate` = @p9)) AND (`insclass_idinsclass` = @p10) AND (`cars_idcars` = @p11) AND (`cars_owners_idowners` = @p12))</CommandText>
@@ -261,7 +261,7 @@
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="driversTableAdapter" GeneratorDataComponentClassName="driversTableAdapter" Name="drivers" UserDataComponentName="driversTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="localmysql (Settings)" DbObjectName="hti0ppaxri.drivers" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="localhost (Settings)" DbObjectName="hti0ppaxri.drivers" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>DELETE FROM `drivers` WHERE ((`iddriver` = @p1) AND (`name` = @p2) AND ((@p3 = 1 AND `licenseno` IS NULL) OR (`licenseno` = @p4)) AND ((@p5 = 1 AND `applydate` IS NULL) OR (`applydate` = @p6)) AND ((@p7 = 1 AND `people_idpeople` IS NULL) OR (`people_idpeople` = @p8)))</CommandText>
@@ -326,7 +326,7 @@
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="forceinsTableAdapter" GeneratorDataComponentClassName="forceinsTableAdapter" Name="forceins" UserDataComponentName="forceinsTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="localmysql (Settings)" DbObjectName="hti0ppaxri.forceins" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="localhost (Settings)" DbObjectName="hti0ppaxri.forceins" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>DELETE FROM `forceins` WHERE ((`idInsurances` = @p1) AND (`cars_idcars` = @p2) AND (`insclass_idinsclass` = @p3) AND ((@p4 = 1 AND `deathinde` IS NULL) OR (`deathinde` = @p5)) AND ((@p6 = 1 AND `medinde` IS NULL) OR (`medinde` = @p7)) AND ((@p8 = 1 AND `proinde` IS NULL) OR (`proinde` = @p9)) AND ((@p10 = 1 AND `nrdeathinde` IS NULL) OR (`nrdeathinde` = @p11)) AND ((@p12 = 1 AND `nrmedinde` IS NULL) OR (`nrmedinde` = @p13)) AND ((@p14 = 1 AND `nrproinde` IS NULL) OR (`nrproinde` = @p15)) AND ((@p16 = 1 AND `premium` IS NULL) OR (`premium` = @p17)) AND ((@p18 = 1 AND `startdate` IS NULL) OR (`startdate` = @p19)) AND ((@p20 = 1 AND `floatratio` IS NULL) OR (`floatratio` = @p21)) AND ((@p22 = 1 AND `enddate` IS NULL) OR (`enddate` = @p23)) AND ((@p24 = 1 AND `dispute` IS NULL) OR (`dispute` = @p25)) AND ((@p26 = 1 AND `payty` IS NULL) OR (`payty` = @p27)) AND ((@p28 = 1 AND `paypy` IS NULL) OR (`paypy` = @p29)) AND ((@p30 = 1 AND `lpf` IS NULL) OR (`lpf` = @p31)) AND ((@p32 = 1 AND `ttax` IS NULL) OR (`ttax` = @p33)) AND ((@p34 = 1 AND `signdate` IS NULL) OR (`signdate` = @p35)) AND ((@p36 = 1 AND `underwriting` IS NULL) OR (`underwriting` = @p37)) AND ((@p38 = 1 AND `Manufacturing` IS NULL) OR (`Manufacturing` = @p39)) AND ((@p40 = 1 AND `handle` IS NULL) OR (`handle` = @p41)) AND ((@p42 = 1 AND `ponum` IS NULL) OR (`ponum` = @p43)))</CommandText>
@@ -515,7 +515,7 @@
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="insclassTableAdapter" GeneratorDataComponentClassName="insclassTableAdapter" Name="insclass" UserDataComponentName="insclassTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="localmysql (Settings)" DbObjectName="hti0ppaxri.insclass" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="localhost (Settings)" DbObjectName="hti0ppaxri.insclass" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>DELETE FROM `insclass` WHERE ((`idinsclass` = @p1) AND ((@p2 = 1 AND `insname` IS NULL) OR (`insname` = @p3)) AND ((@p4 = 1 AND `inscorp` IS NULL) OR (`inscorp` = @p5)) AND ((@p6 = 1 AND `instype` IS NULL) OR (`instype` = @p7)) AND ((@p8 = 1 AND `corpaddr` IS NULL) OR (`corpaddr` = @p9)) AND ((@p10 = 1 AND `corppostcode` IS NULL) OR (`corppostcode` = @p11)) AND ((@p12 = 1 AND `corptele` IS NULL) OR (`corptele` = @p13)))</CommandText>
@@ -596,7 +596,7 @@
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="orgsTableAdapter" GeneratorDataComponentClassName="orgsTableAdapter" Name="orgs" UserDataComponentName="orgsTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="localmysql (Settings)" DbObjectName="hti0ppaxri.orgs" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="localhost (Settings)" DbObjectName="hti0ppaxri.orgs" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>DELETE FROM `orgs` WHERE ((`idorgs` = @p1) AND (`name` = @p2) AND ((@p3 = 1 AND `code` IS NULL) OR (`code` = @p4)) AND ((@p5 = 1 AND `addr` IS NULL) OR (`addr` = @p6)))</CommandText>
@@ -654,7 +654,7 @@
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="orgsetTableAdapter" GeneratorDataComponentClassName="orgsetTableAdapter" Name="orgset" UserDataComponentName="orgsetTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="localmysql (Settings)" DbObjectName="hti0ppaxri.orgset" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="localhost (Settings)" DbObjectName="hti0ppaxri.orgset" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>DELETE FROM `orgset` WHERE (((@p1 = 1 AND `days` IS NULL) OR (`days` = @p2)) AND ((@p3 = 1 AND `sms` IS NULL) OR (`sms` = @p4)) AND (`orgs_idorgs` = @p5))</CommandText>
@@ -709,7 +709,7 @@
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ownersTableAdapter" GeneratorDataComponentClassName="ownersTableAdapter" Name="owners" UserDataComponentName="ownersTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="localmysql (Settings)" DbObjectName="hti0ppaxri.owners" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="localhost (Settings)" DbObjectName="hti0ppaxri.owners" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>DELETE FROM `owners` WHERE ((`idowners` = @p1) AND ((@p2 = 1 AND `orgs_idorgs` IS NULL) OR (`orgs_idorgs` = @p3)) AND ((@p4 = 1 AND `people_idpeople` IS NULL) OR (`people_idpeople` = @p5)))</CommandText>
@@ -762,7 +762,7 @@
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="peopleTableAdapter" GeneratorDataComponentClassName="peopleTableAdapter" Name="people" UserDataComponentName="peopleTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="localmysql (Settings)" DbObjectName="hti0ppaxri.people" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="localhost (Settings)" DbObjectName="hti0ppaxri.people" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>DELETE FROM `people` WHERE ((`idpeople` = @p1) AND ((@p2 = 1 AND `name` IS NULL) OR (`name` = @p3)) AND ((@p4 = 1 AND `code` IS NULL) OR (`code` = @p5)) AND ((@p6 = 1 AND `mobile` IS NULL) OR (`mobile` = @p7)) AND ((@p8 = 1 AND `orgs_idorgs` IS NULL) OR (`orgs_idorgs` = @p9)) AND ((@p10 = 1 AND `addr` IS NULL) OR (`addr` = @p11)))</CommandText>
@@ -836,7 +836,7 @@
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="sysusersTableAdapter" GeneratorDataComponentClassName="sysusersTableAdapter" Name="sysusers" UserDataComponentName="sysusersTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="localmysql (Settings)" DbObjectName="hti0ppaxri.sysusers" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="localhost (Settings)" DbObjectName="hti0ppaxri.sysusers" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>DELETE FROM `sysusers` WHERE ((`idsysuser` = @p1) AND (`username` = @p2) AND (`password` = @p3) AND ((@p4 = 1 AND `createdate` IS NULL) OR (`createdate` = @p5)) AND ((@p6 = 1 AND `role` IS NULL) OR (`role` = @p7)) AND ((@p8 = 1 AND `people_idpeople` IS NULL) OR (`people_idpeople` = @p9)))</CommandText>
@@ -906,46 +906,46 @@
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="testrecTableAdapter" GeneratorDataComponentClassName="testrecTableAdapter" Name="testrec" UserDataComponentName="testrecTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="localmysql (Settings)" DbObjectName="hti0ppaxri.testrec" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="localhost (Settings)" DbObjectName="hti0ppaxri.testrec" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
-                    <CommandText>DELETE FROM `testrec` WHERE ((`idtestrec` = @p1) AND ((@p2 = 1 AND `testdate` IS NULL) OR (`testdate` = @p3)) AND (`exddate` = @p4) AND (`cars_idcars` = @p5))</CommandText>
+                    <CommandText>DELETE FROM `testrec` WHERE ((`idtestrec` = @p1) AND ((@p2 = 1 AND `testdate` IS NULL) OR (`testdate` = @p3)) AND (`exdate` = @p4) AND (`cars_idcars` = @p5))</CommandText>
                     <Parameters>
                       <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@p1" Precision="0" ProviderType="Int32" Scale="0" Size="0" SourceColumn="idtestrec" SourceColumnNullMapping="false" SourceVersion="Original" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@p2" Precision="0" ProviderType="Int32" Scale="0" Size="0" SourceColumn="testdate" SourceColumnNullMapping="true" SourceVersion="Original" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@p3" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="testdate" SourceColumnNullMapping="false" SourceVersion="Original" />
-                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@p4" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="exddate" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@p4" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="exdate" SourceColumnNullMapping="false" SourceVersion="Original" />
                       <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@p5" Precision="0" ProviderType="Int32" Scale="0" Size="0" SourceColumn="cars_idcars" SourceColumnNullMapping="false" SourceVersion="Original" />
                     </Parameters>
                   </DbCommand>
                 </DeleteCommand>
                 <InsertCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
-                    <CommandText>INSERT INTO `testrec` (`testdate`, `exddate`, `cars_idcars`) VALUES (@p1, @p2, @p3)</CommandText>
+                    <CommandText>INSERT INTO `testrec` (`testdate`, `exdate`, `cars_idcars`) VALUES (@p1, @p2, @p3)</CommandText>
                     <Parameters>
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@p1" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="testdate" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@p2" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="exddate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@p2" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="exdate" SourceColumnNullMapping="false" SourceVersion="Current" />
                       <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@p3" Precision="0" ProviderType="Int32" Scale="0" Size="0" SourceColumn="cars_idcars" SourceColumnNullMapping="false" SourceVersion="Current" />
                     </Parameters>
                   </DbCommand>
                 </InsertCommand>
                 <SelectCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
-                    <CommandText>SELECT `idtestrec`, `testdate`, `exddate`, `cars_idcars` FROM `testrec`</CommandText>
+                    <CommandText>SELECT `idtestrec`, `testdate`, `exdate`, `cars_idcars` FROM `testrec`</CommandText>
                     <Parameters />
                   </DbCommand>
                 </SelectCommand>
                 <UpdateCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
-                    <CommandText>UPDATE `testrec` SET `testdate` = @p1, `exddate` = @p2, `cars_idcars` = @p3 WHERE ((`idtestrec` = @p4) AND ((@p5 = 1 AND `testdate` IS NULL) OR (`testdate` = @p6)) AND (`exddate` = @p7) AND (`cars_idcars` = @p8))</CommandText>
+                    <CommandText>UPDATE `testrec` SET `testdate` = @p1, `exdate` = @p2, `cars_idcars` = @p3 WHERE ((`idtestrec` = @p4) AND ((@p5 = 1 AND `testdate` IS NULL) OR (`testdate` = @p6)) AND (`exdate` = @p7) AND (`cars_idcars` = @p8))</CommandText>
                     <Parameters>
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@p1" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="testdate" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@p2" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="exddate" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@p2" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="exdate" SourceColumnNullMapping="false" SourceVersion="Current" />
                       <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@p3" Precision="0" ProviderType="Int32" Scale="0" Size="0" SourceColumn="cars_idcars" SourceColumnNullMapping="false" SourceVersion="Current" />
                       <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@p4" Precision="0" ProviderType="Int32" Scale="0" Size="0" SourceColumn="idtestrec" SourceColumnNullMapping="false" SourceVersion="Original" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@p5" Precision="0" ProviderType="Int32" Scale="0" Size="0" SourceColumn="testdate" SourceColumnNullMapping="true" SourceVersion="Original" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@p6" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="testdate" SourceColumnNullMapping="false" SourceVersion="Original" />
-                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@p7" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="exddate" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@p7" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="exdate" SourceColumnNullMapping="false" SourceVersion="Original" />
                       <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@p8" Precision="0" ProviderType="Int32" Scale="0" Size="0" SourceColumn="cars_idcars" SourceColumnNullMapping="false" SourceVersion="Original" />
                     </Parameters>
                   </DbCommand>
@@ -955,7 +955,7 @@
             <Mappings>
               <Mapping SourceColumn="idtestrec" DataSetColumn="idtestrec" />
               <Mapping SourceColumn="testdate" DataSetColumn="testdate" />
-              <Mapping SourceColumn="exddate" DataSetColumn="exddate" />
+              <Mapping SourceColumn="exdate" DataSetColumn="exdate" />
               <Mapping SourceColumn="cars_idcars" DataSetColumn="cars_idcars" />
             </Mappings>
             <Sources />
@@ -965,7 +965,7 @@
       </DataSource>
     </xs:appinfo>
   </xs:annotation>
-  <xs:element name="cardataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="cardataset" msprop:Generator_UserDSName="cardataset">
+  <xs:element name="hti0ppaxriDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="hti0ppaxriDataSet" msprop:Generator_UserDSName="hti0ppaxriDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
         <xs:element name="cars" msprop:Generator_TableClassName="carsDataTable" msprop:Generator_TableVarName="tablecars" msprop:Generator_TablePropName="cars" msprop:Generator_RowDeletingName="carsRowDeleting" msprop:Generator_RowChangingName="carsRowChanging" msprop:Generator_RowEvHandlerName="carsRowChangeEventHandler" msprop:Generator_RowDeletedName="carsRowDeleted" msprop:Generator_UserTableName="cars" msprop:Generator_RowChangedName="carsRowChanged" msprop:Generator_RowEvArgName="carsRowChangeEvent" msprop:Generator_RowClassName="carsRow">
@@ -1358,7 +1358,7 @@
             <xs:sequence>
               <xs:element name="idtestrec" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnidtestrec" msprop:Generator_ColumnPropNameInRow="idtestrec" msprop:Generator_ColumnPropNameInTable="idtestrecColumn" msprop:Generator_UserColumnName="idtestrec" type="xs:int" />
               <xs:element name="testdate" msprop:Generator_ColumnVarNameInTable="columntestdate" msprop:Generator_ColumnPropNameInRow="testdate" msprop:Generator_ColumnPropNameInTable="testdateColumn" msprop:Generator_UserColumnName="testdate" type="xs:dateTime" minOccurs="0" />
-              <xs:element name="exddate" msprop:Generator_ColumnVarNameInTable="columnexddate" msprop:Generator_ColumnPropNameInRow="exddate" msprop:Generator_ColumnPropNameInTable="exddateColumn" msprop:Generator_UserColumnName="exddate" type="xs:dateTime" />
+              <xs:element name="exdate" msprop:Generator_ColumnVarNameInTable="columnexdate" msprop:Generator_ColumnPropNameInRow="exdate" msprop:Generator_ColumnPropNameInTable="exdateColumn" msprop:Generator_UserColumnName="exdate" type="xs:dateTime" />
               <xs:element name="cars_idcars" msprop:Generator_ColumnVarNameInTable="columncars_idcars" msprop:Generator_ColumnPropNameInRow="cars_idcars" msprop:Generator_ColumnPropNameInTable="cars_idcarsColumn" msprop:Generator_UserColumnName="cars_idcars" type="xs:int" />
             </xs:sequence>
           </xs:complexType>

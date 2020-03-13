@@ -58,6 +58,9 @@
             this.testgrid.RowTemplate.Height = 23;
             this.testgrid.Size = new System.Drawing.Size(996, 404);
             this.testgrid.TabIndex = 0;
+            this.testgrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.testgrid_CellContentClick);
+            this.testgrid.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.testgrid_CellPainting);
+            this.testgrid.DoubleClick += new System.EventHandler(this.testgrid_DoubleClick);
             // 
             // carcode
             // 
@@ -116,6 +119,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "车辆管理";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // mainFrm
             // 

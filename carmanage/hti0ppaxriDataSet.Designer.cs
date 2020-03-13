@@ -20,9 +20,9 @@ namespace carmanage {
     [global::System.ComponentModel.DesignerCategoryAttribute("code")]
     [global::System.ComponentModel.ToolboxItem(true)]
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
-    [global::System.Xml.Serialization.XmlRootAttribute("cardataset")]
+    [global::System.Xml.Serialization.XmlRootAttribute("hti0ppaxriDataSet")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class cardataset : global::System.Data.DataSet {
+    public partial class hti0ppaxriDataSet : global::System.Data.DataSet {
         
         private carsDataTable tablecars;
         
@@ -74,7 +74,7 @@ namespace carmanage {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        public cardataset() {
+        public hti0ppaxriDataSet() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -85,7 +85,7 @@ namespace carmanage {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        protected cardataset(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected hti0ppaxriDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -301,7 +301,7 @@ namespace carmanage {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            cardataset cln = ((cardataset)(base.Clone()));
+            hti0ppaxriDataSet cln = ((hti0ppaxriDataSet)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -475,9 +475,9 @@ namespace carmanage {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitClass() {
-            this.DataSetName = "cardataset";
+            this.DataSetName = "hti0ppaxriDataSet";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/cardataset.xsd";
+            this.Namespace = "http://tempuri.org/hti0ppaxriDataSet.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tablecars = new carsDataTable();
@@ -629,7 +629,7 @@ namespace carmanage {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            cardataset ds = new cardataset();
+            hti0ppaxriDataSet ds = new hti0ppaxriDataSet();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -1213,7 +1213,7 @@ namespace carmanage {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                cardataset ds = new cardataset();
+                hti0ppaxriDataSet ds = new hti0ppaxriDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1587,7 +1587,7 @@ namespace carmanage {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                cardataset ds = new cardataset();
+                hti0ppaxriDataSet ds = new hti0ppaxriDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1910,7 +1910,7 @@ namespace carmanage {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                cardataset ds = new cardataset();
+                hti0ppaxriDataSet ds = new hti0ppaxriDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2517,7 +2517,7 @@ namespace carmanage {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                cardataset ds = new cardataset();
+                hti0ppaxriDataSet ds = new hti0ppaxriDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2868,7 +2868,7 @@ namespace carmanage {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                cardataset ds = new cardataset();
+                hti0ppaxriDataSet ds = new hti0ppaxriDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3175,7 +3175,7 @@ namespace carmanage {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                cardataset ds = new cardataset();
+                hti0ppaxriDataSet ds = new hti0ppaxriDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3465,7 +3465,7 @@ namespace carmanage {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                cardataset ds = new cardataset();
+                hti0ppaxriDataSet ds = new hti0ppaxriDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -3760,7 +3760,7 @@ namespace carmanage {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                cardataset ds = new cardataset();
+                hti0ppaxriDataSet ds = new hti0ppaxriDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4098,7 +4098,7 @@ namespace carmanage {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                cardataset ds = new cardataset();
+                hti0ppaxriDataSet ds = new hti0ppaxriDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4437,7 +4437,7 @@ namespace carmanage {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                cardataset ds = new cardataset();
+                hti0ppaxriDataSet ds = new hti0ppaxriDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -4507,7 +4507,7 @@ namespace carmanage {
             
             private global::System.Data.DataColumn columntestdate;
             
-            private global::System.Data.DataColumn columnexddate;
+            private global::System.Data.DataColumn columnexdate;
             
             private global::System.Data.DataColumn columncars_idcars;
             
@@ -4562,9 +4562,9 @@ namespace carmanage {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn exddateColumn {
+            public global::System.Data.DataColumn exdateColumn {
                 get {
-                    return this.columnexddate;
+                    return this.columnexdate;
                 }
             }
             
@@ -4613,12 +4613,12 @@ namespace carmanage {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public testrecRow AddtestrecRow(System.DateTime testdate, System.DateTime exddate, carsRow parentcarsRowByfk_testrec_cars1) {
+            public testrecRow AddtestrecRow(System.DateTime testdate, System.DateTime exdate, carsRow parentcarsRowByfk_testrec_cars1) {
                 testrecRow rowtestrecRow = ((testrecRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
                         testdate,
-                        exddate,
+                        exdate,
                         null};
                 if ((parentcarsRowByfk_testrec_cars1 != null)) {
                     columnValuesArray[3] = parentcarsRowByfk_testrec_cars1[0];
@@ -4655,7 +4655,7 @@ namespace carmanage {
             internal void InitVars() {
                 this.columnidtestrec = base.Columns["idtestrec"];
                 this.columntestdate = base.Columns["testdate"];
-                this.columnexddate = base.Columns["exddate"];
+                this.columnexdate = base.Columns["exdate"];
                 this.columncars_idcars = base.Columns["cars_idcars"];
             }
             
@@ -4666,8 +4666,8 @@ namespace carmanage {
                 base.Columns.Add(this.columnidtestrec);
                 this.columntestdate = new global::System.Data.DataColumn("testdate", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columntestdate);
-                this.columnexddate = new global::System.Data.DataColumn("exddate", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnexddate);
+                this.columnexdate = new global::System.Data.DataColumn("exdate", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnexdate);
                 this.columncars_idcars = new global::System.Data.DataColumn("cars_idcars", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columncars_idcars);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
@@ -4677,7 +4677,7 @@ namespace carmanage {
                 this.columnidtestrec.AutoIncrementSeed = -1;
                 this.columnidtestrec.AutoIncrementStep = -1;
                 this.columnidtestrec.AllowDBNull = false;
-                this.columnexddate.AllowDBNull = false;
+                this.columnexdate.AllowDBNull = false;
                 this.columncars_idcars.AllowDBNull = false;
             }
             
@@ -4746,7 +4746,7 @@ namespace carmanage {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                cardataset ds = new cardataset();
+                hti0ppaxriDataSet ds = new hti0ppaxriDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -7291,12 +7291,12 @@ namespace carmanage {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public System.DateTime exddate {
+            public System.DateTime exdate {
                 get {
-                    return ((global::System.DateTime)(this[this.tabletestrec.exddateColumn]));
+                    return ((global::System.DateTime)(this[this.tabletestrec.exdateColumn]));
                 }
                 set {
-                    this[this.tabletestrec.exddateColumn] = value;
+                    this[this.tabletestrec.exdateColumn] = value;
                 }
             }
             
@@ -7710,7 +7710,7 @@ namespace carmanage {
         }
     }
 }
-namespace carmanage.cardatasetTableAdapters {
+namespace carmanage.hti0ppaxriDataSetTableAdapters {
     
     
     /// <summary>
@@ -8840,7 +8840,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localmysql;
+            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localhost;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8857,7 +8857,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(cardataset.carsDataTable dataTable) {
+        public virtual int Fill(hti0ppaxriDataSet.carsDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -8870,9 +8870,9 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual cardataset.carsDataTable GetData() {
+        public virtual hti0ppaxriDataSet.carsDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            cardataset.carsDataTable dataTable = new cardataset.carsDataTable();
+            hti0ppaxriDataSet.carsDataTable dataTable = new hti0ppaxriDataSet.carsDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -8880,14 +8880,14 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset.carsDataTable dataTable) {
+        public virtual int Update(hti0ppaxriDataSet.carsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset dataSet) {
+        public virtual int Update(hti0ppaxriDataSet dataSet) {
             return this.Adapter.Update(dataSet, "cars");
         }
         
@@ -10066,7 +10066,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localmysql;
+            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localhost;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10084,7 +10084,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(cardataset.cominsDataTable dataTable) {
+        public virtual int Fill(hti0ppaxriDataSet.cominsDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -10097,9 +10097,9 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual cardataset.cominsDataTable GetData() {
+        public virtual hti0ppaxriDataSet.cominsDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            cardataset.cominsDataTable dataTable = new cardataset.cominsDataTable();
+            hti0ppaxriDataSet.cominsDataTable dataTable = new hti0ppaxriDataSet.cominsDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -10107,14 +10107,14 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset.cominsDataTable dataTable) {
+        public virtual int Update(hti0ppaxriDataSet.cominsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset dataSet) {
+        public virtual int Update(hti0ppaxriDataSet dataSet) {
             return this.Adapter.Update(dataSet, "comins");
         }
         
@@ -10675,7 +10675,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localmysql;
+            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localhost;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -10693,7 +10693,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(cardataset.driversDataTable dataTable) {
+        public virtual int Fill(hti0ppaxriDataSet.driversDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -10706,9 +10706,9 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual cardataset.driversDataTable GetData() {
+        public virtual hti0ppaxriDataSet.driversDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            cardataset.driversDataTable dataTable = new cardataset.driversDataTable();
+            hti0ppaxriDataSet.driversDataTable dataTable = new hti0ppaxriDataSet.driversDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -10716,14 +10716,14 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset.driversDataTable dataTable) {
+        public virtual int Update(hti0ppaxriDataSet.driversDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset dataSet) {
+        public virtual int Update(hti0ppaxriDataSet dataSet) {
             return this.Adapter.Update(dataSet, "drivers");
         }
         
@@ -12181,7 +12181,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localmysql;
+            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localhost;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -12198,7 +12198,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(cardataset.forceinsDataTable dataTable) {
+        public virtual int Fill(hti0ppaxriDataSet.forceinsDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -12211,9 +12211,9 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual cardataset.forceinsDataTable GetData() {
+        public virtual hti0ppaxriDataSet.forceinsDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            cardataset.forceinsDataTable dataTable = new cardataset.forceinsDataTable();
+            hti0ppaxriDataSet.forceinsDataTable dataTable = new hti0ppaxriDataSet.forceinsDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -12221,14 +12221,14 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset.forceinsDataTable dataTable) {
+        public virtual int Update(hti0ppaxriDataSet.forceinsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset dataSet) {
+        public virtual int Update(hti0ppaxriDataSet dataSet) {
             return this.Adapter.Update(dataSet, "forceins");
         }
         
@@ -13486,7 +13486,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localmysql;
+            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localhost;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -13504,7 +13504,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(cardataset.insclassDataTable dataTable) {
+        public virtual int Fill(hti0ppaxriDataSet.insclassDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -13517,9 +13517,9 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual cardataset.insclassDataTable GetData() {
+        public virtual hti0ppaxriDataSet.insclassDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            cardataset.insclassDataTable dataTable = new cardataset.insclassDataTable();
+            hti0ppaxriDataSet.insclassDataTable dataTable = new hti0ppaxriDataSet.insclassDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -13527,14 +13527,14 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset.insclassDataTable dataTable) {
+        public virtual int Update(hti0ppaxriDataSet.insclassDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset dataSet) {
+        public virtual int Update(hti0ppaxriDataSet dataSet) {
             return this.Adapter.Update(dataSet, "insclass");
         }
         
@@ -14083,7 +14083,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localmysql;
+            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localhost;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -14100,7 +14100,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(cardataset.orgsDataTable dataTable) {
+        public virtual int Fill(hti0ppaxriDataSet.orgsDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -14113,9 +14113,9 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual cardataset.orgsDataTable GetData() {
+        public virtual hti0ppaxriDataSet.orgsDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            cardataset.orgsDataTable dataTable = new cardataset.orgsDataTable();
+            hti0ppaxriDataSet.orgsDataTable dataTable = new hti0ppaxriDataSet.orgsDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -14123,14 +14123,14 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset.orgsDataTable dataTable) {
+        public virtual int Update(hti0ppaxriDataSet.orgsDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset dataSet) {
+        public virtual int Update(hti0ppaxriDataSet dataSet) {
             return this.Adapter.Update(dataSet, "orgs");
         }
         
@@ -14573,7 +14573,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localmysql;
+            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localhost;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -14590,7 +14590,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(cardataset.orgsetDataTable dataTable) {
+        public virtual int Fill(hti0ppaxriDataSet.orgsetDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -14603,9 +14603,9 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual cardataset.orgsetDataTable GetData() {
+        public virtual hti0ppaxriDataSet.orgsetDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            cardataset.orgsetDataTable dataTable = new cardataset.orgsetDataTable();
+            hti0ppaxriDataSet.orgsetDataTable dataTable = new hti0ppaxriDataSet.orgsetDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -14613,14 +14613,14 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset.orgsetDataTable dataTable) {
+        public virtual int Update(hti0ppaxriDataSet.orgsetDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset dataSet) {
+        public virtual int Update(hti0ppaxriDataSet dataSet) {
             return this.Adapter.Update(dataSet, "orgset");
         }
         
@@ -15034,7 +15034,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localmysql;
+            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localhost;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -15051,7 +15051,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(cardataset.ownersDataTable dataTable) {
+        public virtual int Fill(hti0ppaxriDataSet.ownersDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -15064,9 +15064,9 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual cardataset.ownersDataTable GetData() {
+        public virtual hti0ppaxriDataSet.ownersDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            cardataset.ownersDataTable dataTable = new cardataset.ownersDataTable();
+            hti0ppaxriDataSet.ownersDataTable dataTable = new hti0ppaxriDataSet.ownersDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -15074,14 +15074,14 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset.ownersDataTable dataTable) {
+        public virtual int Update(hti0ppaxriDataSet.ownersDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset dataSet) {
+        public virtual int Update(hti0ppaxriDataSet dataSet) {
             return this.Adapter.Update(dataSet, "owners");
         }
         
@@ -15635,7 +15635,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localmysql;
+            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localhost;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -15652,7 +15652,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(cardataset.peopleDataTable dataTable) {
+        public virtual int Fill(hti0ppaxriDataSet.peopleDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -15665,9 +15665,9 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual cardataset.peopleDataTable GetData() {
+        public virtual hti0ppaxriDataSet.peopleDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            cardataset.peopleDataTable dataTable = new cardataset.peopleDataTable();
+            hti0ppaxriDataSet.peopleDataTable dataTable = new hti0ppaxriDataSet.peopleDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -15675,14 +15675,14 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset.peopleDataTable dataTable) {
+        public virtual int Update(hti0ppaxriDataSet.peopleDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset dataSet) {
+        public virtual int Update(hti0ppaxriDataSet dataSet) {
             return this.Adapter.Update(dataSet, "people");
         }
         
@@ -16284,7 +16284,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localmysql;
+            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localhost;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -16302,7 +16302,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(cardataset.sysusersDataTable dataTable) {
+        public virtual int Fill(hti0ppaxriDataSet.sysusersDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -16315,9 +16315,9 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual cardataset.sysusersDataTable GetData() {
+        public virtual hti0ppaxriDataSet.sysusersDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            cardataset.sysusersDataTable dataTable = new cardataset.sysusersDataTable();
+            hti0ppaxriDataSet.sysusersDataTable dataTable = new hti0ppaxriDataSet.sysusersDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -16325,14 +16325,14 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset.sysusersDataTable dataTable) {
+        public virtual int Update(hti0ppaxriDataSet.sysusersDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset dataSet) {
+        public virtual int Update(hti0ppaxriDataSet dataSet) {
             return this.Adapter.Update(dataSet, "sysusers");
         }
         
@@ -16672,13 +16672,13 @@ namespace carmanage.cardatasetTableAdapters {
             tableMapping.DataSetTable = "testrec";
             tableMapping.ColumnMappings.Add("idtestrec", "idtestrec");
             tableMapping.ColumnMappings.Add("testdate", "testdate");
-            tableMapping.ColumnMappings.Add("exddate", "exddate");
+            tableMapping.ColumnMappings.Add("exdate", "exdate");
             tableMapping.ColumnMappings.Add("cars_idcars", "cars_idcars");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::MySql.Data.MySqlClient.MySqlCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;
             this._adapter.DeleteCommand.CommandText = "DELETE FROM `testrec` WHERE ((`idtestrec` = @p1) AND ((@p2 = 1 AND `testdate` IS " +
-                "NULL) OR (`testdate` = @p3)) AND (`exddate` = @p4) AND (`cars_idcars` = @p5))";
+                "NULL) OR (`testdate` = @p3)) AND (`exdate` = @p4) AND (`cars_idcars` = @p5))";
             this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
             global::MySql.Data.MySqlClient.MySqlParameter param = new global::MySql.Data.MySqlClient.MySqlParameter();
             param.ParameterName = "@p1";
@@ -16710,7 +16710,7 @@ namespace carmanage.cardatasetTableAdapters {
             param.DbType = global::System.Data.DbType.Date;
             param.MySqlDbType = global::MySql.Data.MySqlClient.MySqlDbType.Date;
             param.IsNullable = true;
-            param.SourceColumn = "exddate";
+            param.SourceColumn = "exdate";
             param.SourceVersion = global::System.Data.DataRowVersion.Original;
             this._adapter.DeleteCommand.Parameters.Add(param);
             param = new global::MySql.Data.MySqlClient.MySqlParameter();
@@ -16723,8 +16723,8 @@ namespace carmanage.cardatasetTableAdapters {
             this._adapter.DeleteCommand.Parameters.Add(param);
             this._adapter.InsertCommand = new global::MySql.Data.MySqlClient.MySqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO `testrec` (`testdate`, `exddate`, `cars_idcars`) VALUES (@p1, @p2, @p" +
-                "3)";
+            this._adapter.InsertCommand.CommandText = "INSERT INTO `testrec` (`testdate`, `exdate`, `cars_idcars`) VALUES (@p1, @p2, @p3" +
+                ")";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             param = new global::MySql.Data.MySqlClient.MySqlParameter();
             param.ParameterName = "@p1";
@@ -16739,7 +16739,7 @@ namespace carmanage.cardatasetTableAdapters {
             param.DbType = global::System.Data.DbType.Date;
             param.MySqlDbType = global::MySql.Data.MySqlClient.MySqlDbType.Date;
             param.IsNullable = true;
-            param.SourceColumn = "exddate";
+            param.SourceColumn = "exdate";
             param.SourceVersion = global::System.Data.DataRowVersion.Current;
             this._adapter.InsertCommand.Parameters.Add(param);
             param = new global::MySql.Data.MySqlClient.MySqlParameter();
@@ -16752,9 +16752,9 @@ namespace carmanage.cardatasetTableAdapters {
             this._adapter.InsertCommand.Parameters.Add(param);
             this._adapter.UpdateCommand = new global::MySql.Data.MySqlClient.MySqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = "UPDATE `testrec` SET `testdate` = @p1, `exddate` = @p2, `cars_idcars` = @p3 WHERE" +
-                " ((`idtestrec` = @p4) AND ((@p5 = 1 AND `testdate` IS NULL) OR (`testdate` = @p6" +
-                ")) AND (`exddate` = @p7) AND (`cars_idcars` = @p8))";
+            this._adapter.UpdateCommand.CommandText = "UPDATE `testrec` SET `testdate` = @p1, `exdate` = @p2, `cars_idcars` = @p3 WHERE " +
+                "((`idtestrec` = @p4) AND ((@p5 = 1 AND `testdate` IS NULL) OR (`testdate` = @p6)" +
+                ") AND (`exdate` = @p7) AND (`cars_idcars` = @p8))";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             param = new global::MySql.Data.MySqlClient.MySqlParameter();
             param.ParameterName = "@p1";
@@ -16769,7 +16769,7 @@ namespace carmanage.cardatasetTableAdapters {
             param.DbType = global::System.Data.DbType.Date;
             param.MySqlDbType = global::MySql.Data.MySqlClient.MySqlDbType.Date;
             param.IsNullable = true;
-            param.SourceColumn = "exddate";
+            param.SourceColumn = "exdate";
             param.SourceVersion = global::System.Data.DataRowVersion.Current;
             this._adapter.UpdateCommand.Parameters.Add(param);
             param = new global::MySql.Data.MySqlClient.MySqlParameter();
@@ -16810,7 +16810,7 @@ namespace carmanage.cardatasetTableAdapters {
             param.DbType = global::System.Data.DbType.Date;
             param.MySqlDbType = global::MySql.Data.MySqlClient.MySqlDbType.Date;
             param.IsNullable = true;
-            param.SourceColumn = "exddate";
+            param.SourceColumn = "exdate";
             param.SourceVersion = global::System.Data.DataRowVersion.Original;
             this._adapter.UpdateCommand.Parameters.Add(param);
             param = new global::MySql.Data.MySqlClient.MySqlParameter();
@@ -16827,7 +16827,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitConnection() {
             this._connection = new global::MySql.Data.MySqlClient.MySqlConnection();
-            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localmysql;
+            this._connection.ConnectionString = global::carmanage.Properties.Settings.Default.localhost;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -16836,7 +16836,7 @@ namespace carmanage.cardatasetTableAdapters {
             this._commandCollection = new global::MySql.Data.MySqlClient.MySqlCommand[1];
             this._commandCollection[0] = new global::MySql.Data.MySqlClient.MySqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT `idtestrec`, `testdate`, `exddate`, `cars_idcars` FROM `testrec`";
+            this._commandCollection[0].CommandText = "SELECT `idtestrec`, `testdate`, `exdate`, `cars_idcars` FROM `testrec`";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
@@ -16844,7 +16844,7 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(cardataset.testrecDataTable dataTable) {
+        public virtual int Fill(hti0ppaxriDataSet.testrecDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -16857,9 +16857,9 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual cardataset.testrecDataTable GetData() {
+        public virtual hti0ppaxriDataSet.testrecDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            cardataset.testrecDataTable dataTable = new cardataset.testrecDataTable();
+            hti0ppaxriDataSet.testrecDataTable dataTable = new hti0ppaxriDataSet.testrecDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -16867,14 +16867,14 @@ namespace carmanage.cardatasetTableAdapters {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset.testrecDataTable dataTable) {
+        public virtual int Update(hti0ppaxriDataSet.testrecDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(cardataset dataSet) {
+        public virtual int Update(hti0ppaxriDataSet dataSet) {
             return this.Adapter.Update(dataSet, "testrec");
         }
         
@@ -17324,7 +17324,7 @@ namespace carmanage.cardatasetTableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        private int UpdateUpdatedRows(cardataset dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(hti0ppaxriDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._orgsTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.orgs.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -17433,7 +17433,7 @@ namespace carmanage.cardatasetTableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        private int UpdateInsertedRows(cardataset dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(hti0ppaxriDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._orgsTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.orgs.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -17531,7 +17531,7 @@ namespace carmanage.cardatasetTableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        private int UpdateDeletedRows(cardataset dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(hti0ppaxriDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._testrecTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.testrec.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -17653,7 +17653,7 @@ namespace carmanage.cardatasetTableAdapters {
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-        public virtual int UpdateAll(cardataset dataSet) {
+        public virtual int UpdateAll(hti0ppaxriDataSet dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }
