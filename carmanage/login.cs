@@ -1,12 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
+using carmanage.func;
+using Org.BouncyCastle.Math.EC;
+using SqlSugar;
+using DbType = System.Data.DbType;
+
+//using MySql.Data.MySqlClient;
 namespace carmanage
 {
 
@@ -32,6 +36,25 @@ namespace carmanage
         {
             string ur = txtUsername.Text;
             string pwd = txtPassword.Text;
+            DB mydb=new DB();
+           var usrs = mydb.SystemuserDb.GetSingle(it=>it.username==ur  && it.password==pwd);
+            if (usrs == null)
+            {
+                //error
+                MessageBox.Show("用户名密码错误！", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                //vaild
+                this.Hide();
+                new mainFrm().Show();
+                
+                
+            }
+            // sqlsugar code 
+
+            /*
+            s
             MySqlParameter my = new MySqlParameter("@usr",ur);
             MySqlParameter my1 = new MySqlParameter("@pwd", pwd);
             MySqlParameter[] myo = { my, my1 };
@@ -72,7 +95,8 @@ namespace carmanage
                     }
                 }       
             
-           // }
+           */
+
         }
 
         private void txtPassword_KeyPress(object sender, KeyPressEventArgs e)
@@ -89,6 +113,20 @@ namespace carmanage
             {
                 button1_Click(sender, e);
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SqlSugarClient db = new SqlSugarClient(new ConnectionConfig()
+            {
+                DbType = SqlSugar.DbType.MySql,
+                ConnectionString = "Server=localhost;Database=carmanager;Uid=root;Pwd=root",
+                InitKeyType = InitKeyType.Attribute,
+                IsAutoCloseConnection = true
+            });
+            //db.DbFirst.CreateClassFile("C:\\Users\\jiang\\source\\repos\\carmanage\\carmanage\\model", "carmanage.Model");
+            db.DbFirst.IsCreateDefaultValue().IsCreateAttribute().CreateClassFile("C:\\Users\\jiang\\source\\repos\\carmanage\\carmanage\\model", "carmanage.Model");
+            
         }
     }
 }

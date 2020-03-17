@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using carmanage.Model;
 
 namespace carmanage
 {
@@ -12,9 +13,9 @@ namespace carmanage
         /// 应用程序的主入口点。
         /// </summary>
       
-
-        public static string username;
-        public static int orgid;
+ 
+        public static sysusers user;
+        public static orgs org;
         public static string orgname;
         [STAThread]
         static void Main()

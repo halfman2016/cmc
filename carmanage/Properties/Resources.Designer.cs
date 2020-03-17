@@ -68,14 +68,5 @@ namespace carmanage.Properties {
                 return ResourceManager.GetString("conlocal", resourceCulture);
             }
         }
-        
-        /// <summary>
-        ///   查找类似  的本地化字符串。
-        /// </summary>
-        internal static string connnet {
-            get {
-                return ResourceManager.GetString("connnet", resourceCulture);
-            }
-        }
     }
 }

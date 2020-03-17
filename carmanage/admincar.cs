@@ -1,4 +1,4 @@
-﻿using MySql.Data.MySqlClient;
+﻿//using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -44,7 +44,7 @@ namespace carmanage
         {
 
 
-            MySqlConnection northwindConnection = new MySqlConnection(Properties.Settings.Default.localhost);
+            /*MySqlConnection northwindConnection = new MySqlConnection(Properties.Settings.Default.localhost);
 
             MySqlCommand command = new MySqlCommand(sqlCommand, northwindConnection);
             MySqlDataAdapter adapter = new MySqlDataAdapter();
@@ -52,7 +52,8 @@ namespace carmanage
 
             DataTable table = new DataTable();
             table.Locale = System.Globalization.CultureInfo.InvariantCulture;
-            adapter.Fill(table);
+            adapter.Fill(table);*/
+            DataTable table = new DataTable();
 
             return table;
         }

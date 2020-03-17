@@ -7,14 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
+//using MySql.Data.MySqlClient;
 namespace carmanage
 {
     public partial class mainFrm : Form
     {
-        MySqlDataReader cartest;
+        /*MySqlDataReader cartest;
         MySqlDataReader carforce;
-        MySqlDataReader carcom;
+        MySqlDataReader carcom;*/
         
         public mainFrm()
         {
@@ -25,10 +25,11 @@ namespace carmanage
         {
             //
 
-            this.Text = "车保宝-" + Program.orgname;
+          //  this.Text = "车保宝-" + Program.org.Name;
 
             
-            MySqlParameter my = new MySqlParameter("@oid", Program.orgid);
+            /*
+            MySqlParameter my = new MySqlParameter("@oid", Program.org.Idorgs);
            
             MySqlParameter[] myo = { my};
 
@@ -69,6 +70,7 @@ WHERE   (orgs.idorgs = @oid)", myo);
 
                 testgrid.Rows.Add(row);
             }
+*/
 
 
 
@@ -97,9 +99,9 @@ WHERE   (orgs.idorgs = @oid)", myo);
         {
             DataGridViewRow dc = testgrid.CurrentRow;
             Console.WriteLine(dc.Cells[0].Value);
-            cardetail cd = new cardetail();
+            /*cardetail cd = new cardetail();
             cd.carplate = (string)dc.Cells[0].Value;
-            cd.Show();
+            cd.Show();*/
         }
 
         private void testgrid_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)

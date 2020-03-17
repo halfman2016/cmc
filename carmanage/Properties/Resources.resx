@@ -120,7 +120,4 @@
   <data name="conlocal" xml:space="preserve">
     <value>Database=hti0ppaxri;Data Source=localhost;User Id=root;Password=123456</value>
   </data>
-  <data name="connnet" xml:space="preserve">
-    <value />
-  </data>
 </root>
